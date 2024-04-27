@@ -1,0 +1,1435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000011" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns00000000011" font="Open Sans" controllayout="npnxnanbsnfns00000000011" colorscheme="npnxnanbnsnfns00000000011" string_table="npnxnanbnsnfns00000000011" />
+    <layout name="pxabnsnfns00000000011" font="Open Sans" controllayout="pxabnsnfns00000000011" colorscheme="npnxnanbnsnfns00000000011" string_table="npnxnanbnsnfns00000000011" />
+    <layout name="npxnabnsnfns00000000011" font="Open Sans" controllayout="npxnabnsnfns00000000011" colorscheme="npnxnanbnsnfns00000000011" string_table="npnxnanbnsnfns00000000011" />
+    <layout name="npnxnanbnsnfns00000000011" font="Open Sans" controllayout="npnxnanbnsnfns00000000011" colorscheme="npnxnanbnsnfns00000000011" string_table="npnxnanbnsnfns00000000011" />
+    <layout name="pxabnsnfns00000000010" font="Open Sans" controllayout="pxabnsnfns00000000010" colorscheme="npnxnanbnsnfns00000000011" string_table="npnxnanbnsnfns00000000011" />
+    <layout name="npnxnanbnsnfns00001000011" font="Open Sans" controllayout="npnxnanbnsnfns00001000011" colorscheme="npnxnanbnsnfns00000000011" string_table="npnxnanbnsnfns00000000011" />
+    <layout name="pxabnsnfns00001000011" font="Open Sans" controllayout="pxabnsnfns00001000011" colorscheme="npnxnanbnsnfns00000000011" string_table="npnxnanbnsnfns00000000011" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="false">
+            <options>
+              <option name="title_text" value="Untitled1" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="false" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+          <option name="settings" value="false" />
+          <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="false" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00000000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00000000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00000000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000000010">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001000011">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns00000000011">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x909090" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDBDBDB" alpha="100" stop="0" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns00000000011">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_visited">visited</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
+      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="acc_playback_speed">playback speed</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="streaming_video_local_playback_learn_more">Learn More</string>
+      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6MRtH0GJ4eq" displaytext="Main Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6MRtH0GJ4eq.6XupM7Z146J" displaytext="Home Page" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5XcYmET9zco" displaytext="M1 BASICS" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5XcYmET9zco.5vDrrXf2KLM" displaytext="Basics" expand="false" type="slide" />
+            <slidelink slideid="_player.5XcYmET9zco.6ZOVHh7yALp" displaytext="Order of Operations" expand="false" type="slide" />
+            <slidelink slideid="_player.5XcYmET9zco.5cE8JntEAKH" displaytext="Negative Numbers" expand="false" type="slide" />
+            <slidelink slideid="_player.5XcYmET9zco.6Xdh8GwsZvP" displaytext="Editing Expressions " expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6jnxAmy2ldq" displaytext="M2 POWERS &amp;amp; ROOTS" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6jnxAmy2ldq.5ybugxzBo5a" displaytext="Powers and Roots" expand="false" type="slide" />
+            <slidelink slideid="_player.6jnxAmy2ldq.6JnO4m65qbJ" displaytext="Compound Interest" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6OfUbKCJSQC" displaytext="M3 MEMORY LOCATIONS" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6OfUbKCJSQC.6RU5Go5HOfM" displaytext="Memory Locations" expand="false" type="slide" />
+            <slidelink slideid="_player.6OfUbKCJSQC.6h9wN1EbLVR" displaytext="Solving Quadratic Equations " expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5V8K33p9BgM" displaytext="M4 ANGLES" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5V8K33p9BgM.6qvuKPlpJUv" displaytext="Angles" expand="false" type="slide" />
+            <slidelink slideid="_player.5V8K33p9BgM.5VeMFDuEF96" displaytext="Right Triangles" expand="false" type="slide" />
+            <slidelink slideid="_player.5V8K33p9BgM.6JOgpR853qf" displaytext="Law of Cosine " expand="false" type="slide" />
+            <slidelink slideid="_player.5V8K33p9BgM.5aajOVw7dOq" displaytext="Converting" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5VfAXvvyn8L" displaytext="About" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5VfAXvvyn8L.6YAIZXm4cpg" displaytext="Tips" expand="false" type="slide" />
+            <slidelink slideid="_player.5VfAXvvyn8L.5gn6lya1xDz" displaytext="welcome" expand="false" type="slide" />
+            <slidedrawref drawid="_player.6nNQM3lYUTy.5rKubH63YCX" />
+            <slidelink slideid="_player.5VfAXvvyn8L.6nNtjl2wAtm" displaytext="objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.5VfAXvvyn8L.5kxjp9MB6xT" displaytext="Models" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="" displaytext="Quiz and Results" expand="true" type="slide" />
+        <slidelink slideid="_player.5tYcBOwWW33" displaytext="videos" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5tYcBOwWW33.6Kjz4FhsAxE" displaytext="introduction.vid" expand="false" type="slide" />
+            <slidelink slideid="_player.5tYcBOwWW33.5eQd4s2pfMF" displaytext="basics.vid" expand="false" type="slide" />
+            <slidelink slideid="_player.5tYcBOwWW33.67enqhJDDtY" displaytext="powers and roots.vid" expand="false" type="slide" />
+            <slidelink slideid="_player.5tYcBOwWW33.6prM8GP1qHM" displaytext="memory locations.vid" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6MRtH0GJ4eq.6XupM7Z146J" slidebank="false" type="slide">  module 4  module 4  module 4 4.1 converting between degrees &amp; radians 4.1 converting between degrees &amp; radians 4.1 converting between degrees &amp; radians 4.2 right triangles 4.2 right triangles 4.2 right triangles 4.3 law of cosine  4.3 law of cosine  4.3 law of cosine  angles angles angles       module 3  module 3  module 3 memory locations memory locations memory locations   3.1 solving quadratic equations  3.1 solving quadratic equations  3.1 solving quadratic equations    module 2  module 2  module 2   2.1 compound interest 2.1 compound interest 2.1 compound interest powers and roots powers and roots powers and roots  1.1 order of operations 1.1 order of operations 1.1 order of operations 1.2 negative numbers  1.2 negative numbers  1.2 negative numbers  1.3 editing expressions  1.3 editing expressions  1.3 editing expressions    basics basics basics  module 1  module 1  module 1      welcome message   welcome message   welcome message  objectives  objectives  objectives  tips  tips  tips     about  about  about   sample models sample models sample models    mastering  scientific calculator techniques in preparation for mathematics exams stage 1  about  about  about  module 1  module 1  module 1  module 2  module 2  module 2  module 3  module 3  module 3  module 4  module 4  module 4            powers   &amp; roots    basics memory locations   angles jump to quiz jump to quiz jump to quiz        your guide to  watch   video  watch   video done by                                                supervised by houria al sharif          dr. mufeed abu musa </slidetext>
+      <slidetext slideid="5XcYmET9zco.5vDrrXf2KLM" slidebank="false" type="slide"> the main function of a key is printed the key itself.  the second function is printed above the key to the left.  	it is accessed by pressing shift before pressing the key.  the third function is printed above the key to the right.  	it is accessed by pressing alpha before the appropriate key.  if the option is among a menu, it is selected by pressing the number key associated with it on the calculator screen.   the main function of a key is printed the key itself.  the second function is printed above the key to the left.  	it is accessed by pressing shift before pressing the key.  the third function is printed above the key to the right.  	it is accessed by pressing alpha before the appropriate key.  if the option is among a menu, it is selected by pressing the number key associated with it on the calculator screen.           module 1: basics  module 1: basics  1.1 order of operations 1.1 order of operations 1.1 order of operations 1.2 negative numbers 1.2 negative numbers 1.2 negative numbers 1.3 editing expressions 1.3 editing expressions 1.3 editing expressions the main function of a key is printed the key itself.  the second function is printed above the key to the left.  	it is accessed by pressing shift before pressing the key.  the third function is printed above the key to the right.  	it is accessed by pressing alpha before the appropriate key.  if the option is among a menu, it is selected by pressing the number key associated with it on the calculator screen.  watch   video  watch   video  more in this module   jump to quiz jump to quiz jump to quiz</slidetext>
+      <slidetext slideid="5XcYmET9zco.6ZOVHh7yALp" slidebank="false" type="slide">incorrect that is incorrect. please try again. try again try again try again try again try again try again incorrect try again! continue continue continue continue continue continue correct well done!   continue continue continue continue continue continue try again!         write parentheses ( ) in this statement to make it correct.        		 3 + 4 × 5 + 6 = 47   module 1: basics  1.1 order of operations  module 1: basics  1.1 order of operations  practice!  practice!  submit  1.1 order of operations 1.1 order of operations 1.2 negative numbers 1.2 negative numbers 1.2 negative numbers 1.3 editing expressions 1.3 editing expressions 1.3 editing expressions  more in this module jump to quiz jump to quiz jump to quiz  calculators use normal conventions for evaluating mathematical expressions; (pemdas) parenthesis, exponents, multiplication, division, addition, subtraction for example 3 + 4 × 5 should result in 23, getting 35 means you’re using a “business calculator” or an old model. get rid of it! but what if you want to calculate (3 + 4)×5?  either insert   3 + 4 =    to get 7, and then  × 5 =   to get 35.  or use parenthesis ( ).  (3 + 4) × 5 the calculator can handle any level of parentheses tossed at it. back to basics back to basics back to basics</slidetext>
+      <slidetext slideid="5XcYmET9zco.5cE8JntEAKH" slidebank="false" type="slide">incorrect try again! try again try again try again try again try again try again incorrect try again! continue continue continue continue continue continue correct well done!   continue continue continue continue continue continue          if you want to insert a negative number standing by itself, clear out the previous calculation by pressing on/c. otherwise, when you press the negative sign key, the calculator assumes you want to take the previous result (if any) as the starting point for the second calculation.    module 1: basics   1.2 negative numbers   module 1: basics   1.2 negative numbers calculate 6 + 4, then separately, calculate -2 + 6 and give the answer.   practice!  practice!  submit back to basics back to basics back to basics 1.2 negative numbers 1.2 negative numbers 1.3 editing expressions 1.3 editing expressions 1.3 editing expressions  more in this module jump to quiz jump to quiz jump to quiz 1.1 order of operations 1.1 order of operations 1.1 order of operations </slidetext>
+      <slidetext slideid="5XcYmET9zco.6Xdh8GwsZvP" slidebank="false" type="slide">         module 1: basics  1.3 editing expressions  module 1: basics  1.3 editing expressions insert 3 + 4 × 5 =  to your calculator, then replace the + sign with - .   practice!  practice! back to basics back to basics back to basics  1.3 editing expressions 1.3 editing expressions  more in this module jump to quiz jump to quiz jump to quiz 1.1 order of operations 1.1 order of operations 1.1 order of operations 1.2 negative numbers 1.2 negative numbers 1.2 negative numbers what if you make a mistake while inserting your expression? one way out is to press ac and re-do the expression from the beginning.  another way is to use the left and right arrow keys and del key.</slidetext>
+      <slidetext slideid="6jnxAmy2ldq.5ybugxzBo5a" slidebank="false" type="slide"> your calculator perform straightforward functions located on the black keys such as:  squares, square roots, arbitrary powers, and functions with shift key if located above the black keys such as: cubes, cube roots, arbitrary roots    your calculator perform straightforward functions located on the black keys such as:  squares, square roots, arbitrary powers, and functions with shift key if located above the black keys such as: cubes, cube roots, arbitrary roots   your calculator perform straightforward functions located on the black keys such as:  squares, square roots, arbitrary powers, and functions with shift key if located above the black keys such as: cubes, cube roots, arbitrary roots   your calculator perform straightforward functions located on the black keys such as:  squares, square roots, arbitrary powers, and functions with shift key if located above the black keys such as: cubes, cube roots, arbitrary roots    your calculator perform straightforward functions located on the black keys such as:  squares, cubes, square roots, arbitrary powers, and functions with shift key if located above the black keys such as: cube roots, arbitrary roots   your calculator perform straightforward functions located on the black keys such as:  squares, square roots, arbitrary powers, and functions with shift key if located above the black keys such as: cubes, cube roots, arbitrary roots            your calculator perform straightforward functions located on the black keys such as:  squares, square roots, arbitrary powers, and functions with shift key if located above the black keys such as: cubes, cube roots, arbitrary roots  module 2: powers and roots  module 2: powers and roots 2.1 compound interest 2.1 compound interest 2.1 compound interest  watch   video  watch   video  more in this module jump to quiz jump to quiz jump to quiz       remember even roots takes two values; positive and negative.  remember even roots takes two values; positive and negative.  remember even roots takes two values; positive and negative.  remember even roots takes two values; positive and negative.  remember even roots takes two values; positive and negative.  remember even roots takes two values; positive and negative. </slidetext>
+      <slidetext slideid="6jnxAmy2ldq.6JnO4m65qbJ" slidebank="false" type="slide">incorrect try again! try again try again try again try again try again try again incorrect try again! continue continue continue continue continue continue correct well done! continue continue continue continue continue continue                 module 2: powers and roots  2.1 compound interest  module 2: powers and roots  2.1 compound interest  perrie invests £25000 for 3 years in a savings account. she gets 2.7% per annum compound interest.  calculate the total amount of interest perrie will get after 3 years rounded to the nearest whole number. back to powers and roots back to powers and roots back to powers and roots remember remember   submit jump to quiz jump to quiz jump to quiz practice practice </slidetext>
+      <slidetext slideid="6OfUbKCJSQC.6RU5Go5HOfM" slidebank="false" type="slide"> use memory locations in order no to insert in the same data value more than once and copying down intermediate results on paper to avoid the risk of inserting, copying down, or re-entering incorrect values.  use memory locations, namely a, b, c, d, e, f, m, x, and y, to:  store values: sto, followed by the key with the name of the memory location recall values: shift rcl followed by the memory location the values stored in the memory locations remain unchanged when pressing ac, or even when turning the calculator off.  clear all memory location by pressing shift rcl.     use memory locations in order no to insert in the same data value more than once and copying down intermediate results on paper to avoid the risk of inserting, copying down, or re-entering incorrect values.  use memory locations, namely a, b, c, d, e, f, m, x, and y, to:  store values: sto, followed by the key with the name of the memory location recall values: shift rcl followed by the memory location the values stored in the memory locations remain unchanged when pressing ac, or even when turning the calculator off.  clear all memory location by pressing shift rcl.    use memory locations in order no to insert in the same data value more than once and copying down intermediate results on paper to avoid the risk of inserting, copying down, or re-entering incorrect values.  use memory locations, namely a, b, c, d, e, f, m, x, and y, to:  store values: sto, followed by the key with the name of the memory location recall values: shift rcl followed by the memory location the values stored in the memory locations remain unchanged when pressing ac, or even when turning the calculator off.  clear all memory location by pressing shift rcl.            use memory locations in order not to insert in the same data value more than once and copying down intermediate results on paper to avoid the risk of inserting, copying down, or re-entering incorrect values.  use memory locations, namely a, b, c, d, e, f, m, x, and y, to:  store values: sto, followed by the key with the name of the memory location recall values: shift rcl followed by the memory location the values stored in the memory locations remain unchanged when pressing ac, or even when turning the calculator off.  clear all memory location by pressing shift rcl.   module 3: memory locations  module 3: memory locations 3.1 solving quadratic equations 3.1 solving quadratic equations 3.1 solving quadratic equations  watch   video  watch   video   more in this module jump to quiz jump to quiz jump to quiz   </slidetext>
+      <slidetext slideid="6OfUbKCJSQC.6h9wN1EbLVR" slidebank="false" type="slide">incorrect try again! try again try again try again try again try again try again incorrect try again! continue continue continue continue continue continue correct well done! continue continue continue continue continue continue   back to memory locations back to memory locations back to memory locations        module 3: memory locations  3.1 solving quadratic equations  module 3: memory locations  3.1 solving quadratic equations solve          submit using the quadratic formula. give the values of  x separated by a comma. jump to quiz jump to quiz jump to quiz remember remember  using memory locations for the coefficients makes the job easier.  to solve the quadratic equation   practice practice </slidetext>
+      <slidetext slideid="5V8K33p9BgM.6qvuKPlpJUv" slidebank="false" type="slide"> when your work includes angels, you must ensure that your calculator is using the correct system of angle measurement- degrees or radians. some of the functions that locate on the same key are inverses of each other “undo each other”. examples of these are sin, cos, and tan keys which have their inverse trig functions locate above the same keys.               module 4: angles  module 4: angles 4.1 converting between deg. &amp; rad.  4.1 converting between deg. &amp; rad.  4.1 converting between deg. &amp; rad.  4.2 right triangles 4.2 right triangles 4.2 right triangles 4.3 law of cosine 4.3 law of cosine 4.3 law of cosine when your work includes angels, you must ensure that your calculator is using the correct system of angle measurement- degrees or radians. some of the functions that locate on the same key are inverses of each other “undo each other”. examples of these are sin, cos, and tan keys which have their inverse trig functions locate above the same keys.   more in this module jump to quiz jump to quiz jump to quiz  </slidetext>
+      <slidetext slideid="5V8K33p9BgM.5VeMFDuEF96" slidebank="false" type="slide">incorrect try again! try again try again try again try again try again try again incorrect try again! continue continue continue continue continue continue correct well done! continue continue continue continue continue continue         if abc is a right triangle, with right angle at c, then:  module 4: angles  4.2 right triangles  module 4: angles  4.2 right triangles back to angles back to angles back to angles  a group of hikers leave point p, which is on a road that runs north–south, and walk for 6 hours in the direction n20◦e to reach point q. they walk at 5 km/h. what is the shortest distance x from q back to the road? give your answer correct to 1 decimal place? submit jump to quiz jump to quiz jump to quiz 4.1 converting between deg. &amp; rad.  4.1 converting between deg. &amp; rad.  4.1 converting between deg. &amp; rad.  4.2 right triangles 4.2 right triangles 4.3 law of cosine 4.3 law of cosine 4.3 law of cosine  more in this module remember remember practice practice   </slidetext>
+      <slidetext slideid="5V8K33p9BgM.5aajOVw7dOq" slidebank="false" type="slide">incorrect try again! try again try again try again try again try again try again incorrect try again! continue continue continue continue continue continue correct well done!   continue continue continue continue continue continue           module 4: angles  4.1 convert between degrees and radians  module 4: angles  4.1 convert between degrees and radians you can always multiply by π/180 or 180/π to convert between degrees and radians. or let your calculator make the conversion for you by selecting the appropriate choice under mode or menu. back to angles back to angles back to angles jump to quiz jump to quiz jump to quiz 4.1 converting between deg. &amp; rad.  4.1 converting between deg. &amp; rad.  4.2 right triangles 4.2 right triangles 4.2 right triangles 4.3 law of cosine 4.3 law of cosine 4.3 law of cosine  more in this module  convert 11π/6 radians into degrees?   submit practice practice </slidetext>
+      <slidetext slideid="5V8K33p9BgM.6JOgpR853qf" slidebank="false" type="slide">incorrect try again! try again try again try again try again try again try again incorrect try again! continue continue continue continue continue continue correct well done! continue continue continue continue continue continue         for the triangle abc, the law of cosine is:  module 4: angles  4.3 law of cosine  module 4: angles  4.3 law of cosine back to angles back to angles back to angles  a b c  the emblem, shown below, consists of a triangle abc joined to a sector cbd of a circle with radius 4 cm and centre b. the points a, b and d lie on a straight line with ab = 5 cm and bd = 4 cm. angle bac = 0.6 radians and ac is the longest side of the triangle abc. use the low of cosine to find the measurement of that angle abc, correct to 3 significant figures.   submit jump to quiz jump to quiz jump to quiz 4.1 converting between deg. &amp; rad.  4.1 converting between deg. &amp; rad.  4.1 converting between deg. &amp; rad.  4.2 right triangles 4.2 right triangles 4.2 right triangles 4.3 law of cosine 4.3 law of cosine  more in this module remember remember  practice practice </slidetext>
+      <slidetext slideid="5VfAXvvyn8L.6YAIZXm4cpg" slidebank="false" type="slide">     keep in mind the regulations and restrictions regarding calculator use by the examination board. igcse act ib        tips  tips  grab your calculator! a scientific calculator on hand allows learners to practice the skills alongside the instructional materials. a physical calculator can solidify practical application.  course’ stage 1 does not encompass all the features of a scientific calculator. besides, it is tailored for a typical scientific calculator. if you're using a different model, please utilize the corresponding features on your own calculator. you may need to refer to your calculator's manual.   various brands and models of calculators are available; select the one that best fits your needs. check here! sat tawjihi </slidetext>
+      <slidetext slideid="5VfAXvvyn8L.5gn6lya1xDz" slidebank="false" type="slide">   welcome to the “mastering scientific calculator techniques” self-learning course for middle and high schoolers preparing for mathematics examinations.  this course aims to equip the learners with the essential skills required to enhance exam readiness via hands-on exercises at their own pace. mastering such techniques boosts confidence and reduces exam anxiety. instead of crunching numbers, the examinee will have more time to focus on more profound concepts, thus enhancing the opportunity to eliminate the worry of careless mistakes and ensure accurate results.  whether for your igcse, act, ib, tawjihi, or other math exam, this course has something for you. get ready to unlock your calculator's potential and approach your exams with confidence and clarity.  happy learning!       welcome message welcome message</slidetext>
+      <slidetext slideid="5VfAXvvyn8L.6nNtjl2wAtm" slidebank="false" type="slide">          objectives  objectives by the end of this course learners are expected to: develop proficiency in using various calculator functions effectively and efficiently. master hierarchy of arithmetic operations, dealing with given data, and use storage and other calculator features to solve problems.  demonstrate appropriate using of calculators in different mathematical contexts.</slidetext>
+      <slidetext slideid="5VfAXvvyn8L.5kxjp9MB6xT" slidebank="false" type="slide">  hp-48gx back   casio fx-115 es back   hp prime back   ti-36x pro back   casio fx-7000g back   ti-84 plus back   ti-34  back   hp-65 back   hp-41cx back   casio fx-9860gii back   ti-nspire cx back   casio fx-201p back          sample models   sample models  casio fx-201p casio fx-201p casio fx-201p casio fx-9860gii casio fx-9860gii casio fx-9860gii hp-41cx hp-41cx hp-41cx hp-65 hp-65 hp-65 ti-34  ti-34  ti-34  ti-84 plus ti-84 plus ti-84 plus casio fx-7000g casio fx-7000g casio fx-7000g ti-36x pro ti-36x pro ti-36x pro hp prime hp prime hp prime casio fx-115 es casio fx-115 es casio fx-115 es hp-48gx hp-48gx hp-48gx the followings are among the most popular calculator models:  ti-nspire cx ti-nspire cx ti-nspire cx</slidetext>
+      <slidetext slideid="5tYcBOwWW33.6Kjz4FhsAxE" slidebank="false" type="slide">       pause video pause video pause video pause video pause video pause video play video play video play video play video play video play video</slidetext>
+      <slidetext slideid="5tYcBOwWW33.5eQd4s2pfMF" slidebank="false" type="slide">       pause video pause video pause video pause video pause video pause video play video play video play video play video play video play video</slidetext>
+      <slidetext slideid="5tYcBOwWW33.67enqhJDDtY" slidebank="false" type="slide">       pause video pause video pause video pause video pause video pause video play video play video play video play video play video play video</slidetext>
+      <slidetext slideid="5tYcBOwWW33.6prM8GP1qHM" slidebank="false" type="slide">       pause video pause video pause video pause video pause video pause video play video play video play video play video play video play video</slidetext>
+      <slidetext slideid="6PqRvp6OdWd" slidebank="true" type="slide">incorrect not correct continue continue continue continue continue continue incorrect not correct continue continue continue continue continue continue incorrect not correct continue continue continue continue continue continue correct correct continue continue continue continue continue continue    to access the secondary functionality of the keys on a scientific calculator, which key is typically used? alpha alpha alpha alpha alpha alpha mode mode mode mode mode mode shift shift shift shift shift shift enter enter enter enter enter enter        test your skills  test your skills submit</slidetext>
+      <slidetext slideid="6NRT0rQYOxB" slidebank="true" type="slide">incorrect not correct continue continue continue continue continue continue incorrect not correct continue continue continue continue continue continue incorrect not correct continue continue continue continue continue continue correct correct continue continue continue continue continue continue    give your answer correct to 2 decimal places.  3.4407 3.4407 3.4407 3.4407 3.4407 3.4407 3.45 3.45 3.45 3.45 3.45 3.45 3.44 3.44 3.44 3.44 3.44 3.44 3.450 3.450 3.450 3.450 3.450 3.450        test your skills  test your skills submit</slidetext>
+      <slidetext slideid="5XYPXSKm7w7" slidebank="true" type="slide">incorrect not correct continue continue continue continue continue continue incorrect not correct continue continue continue continue continue continue incorrect not correct continue continue continue continue continue continue correct correct continue continue continue continue continue continue    when applying the law of cosines to find the length of a side in a triangle, which function on the scientific calculator should be used? sin sin sin sin sin sin csc csc csc csc csc csc cos cos cos cos cos cos tan tan tan tan tan tan        test your skills  test your skills submit</slidetext>
+      <slidetext slideid="6f42DgILJPP" slidebank="true" type="slide">incorrect not correct! continue continue continue continue continue continue correct correct! continue continue continue continue continue continue         submit  give your answer correct to the nearest whole number. 3 3 3 3 3 3 2 2 2 2 2 2 2.993 2.993 2.993 2.993 2.993 2.993 2.9 2.9 2.9 2.9 2.9 2.9  test your skills  test your skills</slidetext>
+      <slidetext slideid="6eG4Ob3CWqN" slidebank="true" type="slide">incorrect not correct! continue continue continue continue continue continue correct correct! continue continue continue continue continue continue         submit  -150 -150 -150 -150 -150 -150 -15 -15 -15 -15 -15 -15 150 150 150 150 150 150 -105 -105 -105 -105 -105 -105  test your skills  test your skills =</slidetext>
+      <slidetext slideid="6GhJGkm1dpI" slidebank="true" type="slide">incorrect not correct! continue continue continue continue continue continue correct correct! continue continue continue continue continue continue         submit  9.4 9.4 9.4 9.4 9.4 9.4 9.04 9.04 9.04 9.04 9.04 9.04 9.3 9.3 9.3 9.3 9.3 9.3 9.43 9.43 9.43 9.43 9.43 9.43  test your skills  test your skills =</slidetext>
+      <slidetext slideid="6r95jLNzcwe" slidebank="true" type="slide">incorrect not correct! continue continue continue continue continue continue correct correct! continue continue continue continue continue continue    380 380 380 380 380 380 358 358 358 358 358 358 538 538 538 538 538 538 385 385 385 385 385 385 submit  test your skills  test your skills       =</slidetext>
+      <slidetext slideid="6XeoX5Ocb5V" slidebank="true" type="slide">incorrect not correct! continue continue continue continue continue continue correct correct! continue continue continue continue continue continue    265 265 265 265 265 265 526 526 526 526 526 526 256 256 256 256 256 256 625 625 625 625 625 625 submit  test your skills  test your skills       =</slidetext>
+      <slidetext slideid="5e3rDWzRQUx" slidebank="true" type="slide">incorrect not correct! continue continue continue continue continue continue correct correct! continue continue continue continue continue continue    1054 1054 1054 1054 1054 1054 1540 1540 1540 1540 1540 1540 1450 1450 1450 1450 1450 1450 1504 1504 1504 1504 1504 1504 submit  test your skills  test your skills       =</slidetext>
+      <slidetext slideid="63BhdVMCvYf" slidebank="true" type="slide">incorrect not correct! continue continue continue continue continue continue correct correct! continue continue continue continue continue continue    344 344 344 344 344 344 443 443 443 443 443 443 343 343 343 343 343 343 434 434 434 434 434 434 submit  test your skills  test your skills       =</slidetext>
+      <slidetext slideid="6GRQe7TxuNh" slidebank="true" type="slide">incorrect not correct! continue continue continue continue continue continue correct correct! continue continue continue continue continue continue    rcl rcl rcl rcl rcl rcl memory plus memory plus memory plus memory plus memory plus memory plus sto sto sto sto sto sto memory store memory store memory store memory store memory store memory store submit  test your skills  test your skills       in a scientific calculator, the value stored in a memory location is recalled using the key: </slidetext>
+      <slidetext slideid="6AX8HFRRqEf" slidebank="true" type="slide">incorrect not correct continue continue continue continue continue continue incorrect not correct continue continue continue continue continue continue incorrect not correct continue continue continue continue continue continue correct correct continue continue continue continue continue continue    what operation should be performed when converting an angle from degrees to radians? multiply by 180 and divide by π multiply by 180 and divide by π multiply by 180 and divide by π multiply by 180 and divide by π multiply by 180 and divide by π multiply by 180 and divide by π divide by π and multiply by 180 divide by π and multiply by 180 divide by π and multiply by 180 divide by π and multiply by 180 divide by π and multiply by 180 divide by π and multiply by 180 multiply by π and divide by 180 multiply by π and divide by 180 multiply by π and divide by 180 multiply by π and divide by 180 multiply by π and divide by 180 multiply by π and divide by 180 multiply by 2π multiply by 2π multiply by 2π multiply by 2π multiply by 2π multiply by 2π        test your skills  test your skills submit</slidetext>
+      <slidetext slideid="5YgeyfPXO1z" slidebank="true" type="slide">incorrect not correct! continue continue continue continue continue continue correct correct! continue continue continue continue continue continue    672 672 672 672 672 672 6.72 6.72 6.72 6.72 6.72 6.72 67.2 67.2 67.2 67.2 67.2 67.2 62.7 62.7 62.7 62.7 62.7 62.7 submit  test your skills  test your skills       =</slidetext>
+      <slidetext slideid="6o7JoJmLY53" slidebank="true" type="slide">incorrect not correct! continue continue continue continue continue continue correct correct! continue continue continue continue continue continue    ac ac ac ac ac ac del del del del del del c c c c c c ce ce ce ce ce ce submit  test your skills  test your skills       when correcting a mistake in a lengthy calculation, the key often used to clear the last entry or cancel erroneous input is:</slidetext>
+      <slidetext slideid="5nn6u8wJX1O" slidebank="true" type="slide">incorrect not correct! continue continue continue continue continue continue correct correct! continue continue continue continue continue continue    0.05 0.05 0.05 0.05 0.05 0.05 0.0519 0.0519 0.0519 0.0519 0.0519 0.0519 0.052 0.052 0.052 0.052 0.052 0.052 0.05194 0.05194 0.05194 0.05194 0.05194 0.05194 submit  test your skills  test your skills       =</slidetext>
+      <slidetext slideid="6HkoiACgaMV" slidebank="true" type="slide">incorrect not correct continue continue continue continue continue continue incorrect not correct continue continue continue continue continue continue incorrect not correct continue continue continue continue continue continue correct correct continue continue continue continue continue continue    in a right triangle, given the lengths of two sides, the probable scientific calculator function used to calculate the measure of an acute angle is: sin sin sin sin sin sin cos cos cos cos cos cos sin⁻¹ sin⁻¹ sin⁻¹ sin⁻¹ sin⁻¹ sin⁻¹ tan tan tan tan tan tan        test your skills  test your skills submit</slidetext>
+      <slidetext slideid="6Ixe0NTkvpx" slidebank="true" type="slide">incorrect not correct! finish finish finish finish finish finish correct correct! continue continue continue continue continue continue    brackets brackets brackets brackets brackets brackets bi-directional bi-directional bi-directional bi-directional bi-directional bi-directional base base base base base base bias bias bias bias bias bias submit  test your skills  test your skills       the scientific calculator follows the standard order of operations (bodmas/bidmas). what does "b" stand for in this sequence?</slidetext>
+      <slidetext slideid="5mIyrhbqJGG" slidebank="true" type="slide">incorrect not correct! finish finish finish finish finish finish correct correct! continue continue continue continue continue continue    4 4 4 4 4 4 3 3 3 3 3 3 1.12 1.12 1.12 1.12 1.12 1.12 -4 -4 -4 -4 -4 -4 submit  test your skills  test your skills       =</slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
